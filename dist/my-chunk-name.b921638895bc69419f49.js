@@ -7,7 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunkMyButton"] = self["webpackChunkMyButton"] || []).push([["src_lib_components_LazyComponent_js"],{
+(self["webpackChunkMyButton"] = self["webpackChunkMyButton"] || []).push([["my-chunk-name"],{
 
 /***/ "./src/lib/components/LazyComponent.js":
 /*!*********************************************!*\

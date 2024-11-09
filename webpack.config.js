@@ -8,7 +8,8 @@ const config = {
     filename: 'index.js',
     library: 'MyButton',
     libraryTarget: 'umd',
-    publicPath: '/dist'
+    publicPath: '/dist',
+    chunkFilename: '[name].[contenthash].js'
   },
   externals: {
     react: {

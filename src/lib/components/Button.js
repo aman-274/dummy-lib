@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 
-const LazyComponent = lazy(() => import('./LazyComponent'));
+const LazyComponent = lazy(() => import(/* webpackChunkName: "my-chunk-name" */ './LazyComponent.js'));
 export const Button = ({btnText}) => {
   return(
     <div>
