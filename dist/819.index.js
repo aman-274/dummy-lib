@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkMyButton=self.webpackChunkMyButton||[]).push([[819],{819:(n,t,e)=>{e.r(t),e.d(t,{default:()=>c});var u=e(156),a=e.n(u);const c=function(){return a().createElement("div",null,"LazyComponent")}}}]);
